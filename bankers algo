@@ -128,3 +128,29 @@ int main()
     	}
     	return 0;
 }
+/*output:-
+Enter number of processes: 4
+Enter number of resources: 2
+Enter Claim Vector:4    5
+Enter Allocated Resource Table:
+3   4   3   5   2   3   4   4
+Enter Maximum Claim Table:
+4   5   3   3   5   2   5   4
+The Claim Vector is: 	4	5
+The Allocated Resource Table:
+	3	4
+	3	5
+	2	3
+	4	4
+
+The Maximum Claim Table:
+	4	5
+	3	3
+	5	2
+	5	4
+
+Allocated resources:	12	16
+Available resources:	-8	-11
+
+The processes are in unsafe state.
+*/
